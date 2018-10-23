@@ -46,7 +46,7 @@ public class Teste {
     if(   px <                     mascara.length/2 
         ||px >=matriz    .length - mascara.length/2
         ||py <                     mascara.length/2
-        ||py >=matriz[py].length - mascara.length/2
+        ||py >=matriz[px].length - mascara.length/2
        ){
       return matriz[px][py];
     }

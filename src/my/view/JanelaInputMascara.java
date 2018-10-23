@@ -17,7 +17,7 @@ public class JanelaInputMascara extends JFrame{
     super("Entrada Máscara");
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     JPanel painelEscalar = new JPanel();
-    escalarInput = new JTextField("1", 4);
+    escalarInput = new JTextField("1/9", 4);
     painelEscalar.add(escalarInput);
     
     JPanel painelBotao = new JPanel();
